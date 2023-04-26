@@ -5,7 +5,7 @@
     margin: 5px auto;
     border: 1px solid black;
     border-radius: 10px;
-    width: 600px;
+    width: 20%;
     background-color: rgb(221, 232, 238);
 }
 
@@ -13,7 +13,7 @@
     margin-top: 30px;
     margin-bottom: 10px;
     padding: 30px 30px 30px 30px;
-    width: 200px;
+    width: 33%;
     border: 1px solid black;
     border-radius: 10px;
     background-color: #fff;
@@ -34,6 +34,7 @@
 @media (max-device-width: 640px) {
     .Description{
         flex-direction: column;
+        width: 100%;
     }
     .Text_description{
         margin: 10px auto;

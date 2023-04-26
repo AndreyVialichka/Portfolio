@@ -5,12 +5,13 @@
     justify-content: center;
     border: 1px solid black;
     border-radius: 10px;
-    width: 600px;
+    width: 20%;
     background-color: rgb(221, 232, 238);
 }
 
 @media (max-device-width: 640px) {
     .Skills {
         flex-direction:column;
+        width: 100%;
     }
   }

@@ -1,5 +1,5 @@
 .Remote_work {
-    width: 600px;
+    width: 20%;
     border: 1px solid black;
     margin: 10px auto;
     border-radius: 10px;
@@ -8,7 +8,7 @@
 
 .Remote_work button {
     height: 25px;
-    width: 100px;
+    width: 20%;
     margin: 10px auto;
     background-color: #fff;
 }
@@ -24,3 +24,9 @@
 .Remote_work button:hover {
     color: aqua;
 }
+
+@media (max-device-width: 640px) {
+    .Remote_work {
+        width: 100%;
+    }
+  }

@@ -1,5 +1,5 @@
 .footer{
-    width: 600px;
+    width: 20%;
     margin: 10px auto;
     border: 1px solid black;
     border-radius: 10px;
@@ -8,9 +8,15 @@
 }
 .rules{
     height: 50px;
-    width: 400px;
+    width: 65%;
     margin: 10px auto;
     border: 1px solid black;
     border-radius: 10px;
     background-color: #fff;
 }
+
+@media (max-device-width: 640px) {
+    .footer {
+        width: 100%;
+    }
+  }

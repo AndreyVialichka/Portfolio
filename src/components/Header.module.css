@@ -8,15 +8,15 @@
 
 .Menu {
     margin: 10px auto;
-    padding: 3px 100px 0px 100px ;
     border: 1px solid black;
+    width: 20%;
     height: 30px;
     border-radius: 5px;
     background-color: rgb(221, 232, 238);
 }
 
 .Links {
-    padding: 0px 5px 5px 5px ;
+    padding: 0px 5px 5px 0px ;
     height: 20px;
     margin-right: 30px;
     outline: none;
@@ -28,3 +28,9 @@
 a:hover {
     color: aqua;
 }
+
+@media (max-device-width: 640px) {
+    .Menu {
+        width: 100%;
+    }
+  }

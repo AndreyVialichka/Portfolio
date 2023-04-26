@@ -1,7 +1,7 @@
 .SkillsComponent {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 27%;
     margin: 50px;
     border: 1px solid black;
     border-radius: 10px;
@@ -20,15 +20,16 @@
 .Skills_desk {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 100%;
     text-align: center;
 }
 .Skills_desk h3{
     height: 10px;
 }
 .Skills_desk p{
-    width: 150px;
+    width: 90%;
     height: 40px;
+    padding-left: 5px;
 }
 
 .SkillsComponent:hover img{
@@ -41,7 +42,7 @@
 
 .look {
     margin: 5px 0px 10px 35px;
-    width: 80px;
+    width: 60%;
     height: 25px;
 }
 

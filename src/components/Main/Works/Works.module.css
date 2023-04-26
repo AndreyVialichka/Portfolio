@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: center;
     border: 1px solid black;
-    width: 600px;
+    width: 20%;
     border-radius: 10px;
     background-color: rgb(221, 232, 238);
 }
@@ -12,5 +12,6 @@
 @media (max-device-width: 640px) {
     .Works {
         flex-direction:column;
+        width: 100%;
     }
   }

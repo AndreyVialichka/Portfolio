@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   border: 1px solid black;
-  width: 600px;
+  width: 20%;
   border-radius: 10px;
   background-color: rgb(221, 232, 238);
 }
@@ -14,13 +14,13 @@
   display: flex;
   flex-direction: column;
   margin: 0px auto;
-  width: 200px;
+  width: 33%;
 }
 
 .Form textarea {
   margin-top: 10px;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100%;
   border: 1px solid black;
   border-radius: 10px;
 }
@@ -28,14 +28,14 @@
 .Form input {
   margin-top: 10px;
   height: 20px;
-  width: 200px;
+  width: 100%;
   border: 1px solid black;
   border-radius: 5px;
 }
 
 .Form button {
   margin: 10px 0px 5px 0px;
-  width: 210px;
+  width: 100%;
   background-color: #fff;
   border: 1px solid black;
   border-radius: 5px;
@@ -52,4 +52,10 @@
 .Form button:hover {
   border-color: aqua;
   color: aqua;
+}
+
+@media (max-device-width: 640px) {
+  .Contacts {
+      width: 100%;
+  }
 }
