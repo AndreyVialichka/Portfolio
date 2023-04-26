@@ -61,4 +61,8 @@ a:hover {
     .SkillsComponent {
         margin: 10px auto;
     }
+    .look {
+        margin-right: 5px;
+        
+    }
   }

@@ -1,5 +1,5 @@
 .Remote_work {
-    width: 20%;
+    width: 50%;
     border: 1px solid black;
     margin: 10px auto;
     border-radius: 10px;
@@ -28,5 +28,8 @@
 @media (max-device-width: 640px) {
     .Remote_work {
         width: 100%;
+    }
+    .Remote_work button{
+        width: 40%;
     }
   }
