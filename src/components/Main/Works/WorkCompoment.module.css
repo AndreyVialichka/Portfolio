@@ -1,0 +1,63 @@
+.SkillsComponent {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.Skills_logo img{
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+.Skills_desk {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+}
+.Skills_desk h3{
+    height: 10px;
+}
+.Skills_desk p{
+    width: 150px;
+    height: 40px;
+}
+
+.SkillsComponent:hover img{
+    border-color: aqua;
+}
+
+.SkillsComponent:hover {
+    border-color: aqua;
+}
+
+.look {
+    margin: 5px 0px 10px 35px;
+    width: 80px;
+    height: 25px;
+}
+
+.look a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+}
+
+
+@media (max-device-width: 640px) {
+    .SkillsComponent {
+        margin: 10px auto;
+    }
+  }

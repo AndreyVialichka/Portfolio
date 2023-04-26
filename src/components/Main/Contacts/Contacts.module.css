@@ -1,0 +1,55 @@
+.Contacts {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 600px;
+  border-radius: 10px;
+  background-color: rgb(221, 232, 238);
+}
+
+.Form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 200px;
+}
+
+.Form textarea {
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.Form input {
+  margin-top: 10px;
+  height: 20px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.Form button {
+  margin: 10px 0px 5px 0px;
+  width: 210px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.Form input:hover {
+  border-color: aqua;
+}
+
+.Form textarea:hover {
+  border-color: aqua;
+}
+
+.Form button:hover {
+  border-color: aqua;
+  color: aqua;
+}

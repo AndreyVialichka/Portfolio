@@ -1,0 +1,44 @@
+.Description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    background-color: rgb(221, 232, 238);
+}
+
+.Text_description {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 30px 30px 30px 30px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.Photo_description img {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 30px 30px 0px 30px;
+}
+
+.Text_description:hover {
+    border-color: aqua;
+}
+
+@media (max-device-width: 640px) {
+    .Description{
+        flex-direction: column;
+    }
+    .Text_description{
+        margin: 10px auto;
+    }
+    .Photo_description img {
+        margin: 10px auto;
+    }
+  }
