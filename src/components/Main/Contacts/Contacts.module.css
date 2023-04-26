@@ -54,7 +54,7 @@
   color: aqua;
 }
 
-@media (max-device-width: 640px) {
+@media (max-device-width: 1280px) {
   .Contacts {
       width: 100%;
   }

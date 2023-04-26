@@ -15,7 +15,7 @@
     background-color: #fff;
 }
 
-@media (max-device-width: 640px) {
+@media (max-device-width: 1280px) {
     .footer {
         width: 100%;
     }

@@ -57,7 +57,7 @@ a:hover {
 }
 
 
-@media (max-device-width: 640px) {
+@media (max-device-width: 1280px) {
     .SkillsComponent {
         margin: 10px auto;
     }
