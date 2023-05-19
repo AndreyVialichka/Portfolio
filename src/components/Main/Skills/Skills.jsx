@@ -3,9 +3,12 @@ import styles from "./Skills.module.css"
 import react from '../../../assets/react.png'
 import redux from '../../../assets/redux.jpg' 
 import saga from '../../../assets/saga.png' 
+import React from "react"
 
 const Skills = () => {
     return (
+    <React.Fragment>
+      <h1>MY SKILS</h1>
         <div className={styles.Skills}>
           <SkillsComponent 
             skillName = {'React'}
@@ -24,7 +27,8 @@ const Skills = () => {
           />
           
         </div>
-    )
+    </React.Fragment>
+  )
 }
 
 export default Skills

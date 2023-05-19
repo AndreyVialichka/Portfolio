@@ -1,12 +1,15 @@
 .Contacts {
-  margin: auto;
+  margin-top: 30px;
+  margin:  30px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid rgba(221, 232, 238,0);
   width: 50%;
   border-radius: 10px;
-  background-color: rgb(221, 232, 238);
+  background-color: rgba(255, 255, 255, 0);
+  transition-duration: 0.5s;
+  transition-property:transform;
 }
 
 .Form {
@@ -17,11 +20,15 @@
   width: 33%;
 }
 
+.Form label {
+  padding-top: 150px;
+}
 .Form textarea {
   margin-top: 10px;
   height: 100px;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid rgba(221, 232, 238,0);
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 10px;
 }
 
@@ -29,15 +36,16 @@
   margin-top: 10px;
   height: 20px;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid rgba(221, 232, 238,0);
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 5px;
 }
 
 .Form button {
   margin: 10px 0px 5px 0px;
   width: 100%;
-  background-color: #fff;
-  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(221, 232, 238,0);
   border-radius: 5px;
 }
 
@@ -53,6 +61,14 @@
   border-color: aqua;
   color: aqua;
 }
+
+.Contacts:hover {
+  border-color: aqua;
+  transform: scale(1, 1.1);
+  transition-duration: 0.5s;
+  transition-property:transform;
+}
+
 
 @media (max-device-width: 1280px) {
   .Contacts {

@@ -1,49 +1,54 @@
-.SkillsComponent {
+.WorksComponent {
     display: flex;
     flex-direction: column;
-    width: 27%;
-    margin: 50px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: #fff;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgba(46, 66, 70,0.1);
+    background-color: rgba(250, 250, 250, 0.05);
+    transition-duration: 0.5s;
+    transition-property:transform;
+    mix-blend-mode: multiply;
 }
 
-.Skills_logo img{
-    margin-top: 10px;
+.Works_logo img{
     height: 60px;
     width: 60px;
-    border: 1px solid black;
+    border: 1px solid rgba(46, 66, 70,0);
     border-radius: 50%;
 
 }
 
-.Skills_desk {
+.Works_desk {
     display: flex;
     flex-direction: column;
     width: 100%;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-.Skills_desk h3{
+.Works_desk h3{
     height: 10px;
 }
-.Skills_desk p{
+.Works_desk p{
     width: 90%;
     height: 40px;
-    padding-left: 5px;
 }
 
-.SkillsComponent:hover img{
-    border-color: aqua;
-}
 
-.SkillsComponent:hover {
-    border-color: aqua;
+
+.WorksComponent:hover {
+    mix-blend-mode: normal;
+    border-color: rgb(0, 255, 255);
+    transform: scale(1, 1.2) ;
+    transition-duration: 0.5s;
+    transition-property:transform;
 }
 
 .look {
-    margin: 5px 0px 10px 35px;
-    width: 60%;
+    display: flex;
     height: 25px;
+
 }
 
 .look a{
@@ -56,13 +61,3 @@ a:hover {
     color: aqua;
 }
 
-
-@media (max-device-width: 1280px) {
-    .SkillsComponent {
-        margin: 10px auto;
-    }
-    .look {
-        margin-right: 5px;
-        
-    }
-  }

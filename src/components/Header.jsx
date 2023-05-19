@@ -4,10 +4,10 @@ const Header = () => {
     return (
     <header className={styles.Header}>
         <div className={styles.Menu}>
-          <a href="#" className={styles.Links}>Главная</a>
-          <a href="#" className={styles.Links}>Скилы</a>
-          <a href="#" className={styles.Links}>Работы</a>
-          <a href="#" className={styles.Links}>Контакты</a>
+          <a href="#" className={styles.Links}>HOME</a>
+          <a href="#" className={styles.Links}>SKILLS</a>
+          <a href="#" className={styles.Links}>WORKS</a>
+          <a href="#" className={styles.Links}>CONTACTS</a>
         </div>
       </header>
     )

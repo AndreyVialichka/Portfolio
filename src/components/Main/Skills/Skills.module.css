@@ -1,17 +1,15 @@
 .Skills {
-    margin: 10px auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 50%;
-    background-color: rgb(221, 232, 238);
+    justify-content: space-around;
+    height: 30vh;
+    flex-wrap: wrap;
 }
 
 @media (max-device-width: 1280px) {
     .Skills {
-        flex-direction:column;
+        flex-direction:column; 
         width: 100%;
+        height: auto;
     }
   }

@@ -3,12 +3,17 @@ import styles from './Contacts.module.css'
 const Contacts = () => {
     return (
         <div className={styles.Contacts}>
-          <h3>Контакты</h3>
+          <h1>CONTACTS</h1>
           <form className={styles.Form} >
-            <input />
-            <input />
+            <div>
+              <label>EMAIL</label>
+              <input />
+            </div>  
+            <div>
+              <input />
+            </div>
             <textarea></textarea>
-            <button>Отправить</button>
+            <button>SEND</button>
           </form>
         </div>
     )

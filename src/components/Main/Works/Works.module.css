@@ -1,12 +1,8 @@
 .Works {
-    margin: 10px auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    border: 1px solid black;
-    width: 50%;
-    border-radius: 10px;
-    background-color: rgb(221, 232, 238);
+    justify-content: space-around;
+    
 }
 
 @media (max-device-width: 1280px) {

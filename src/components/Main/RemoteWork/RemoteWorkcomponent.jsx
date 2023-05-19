@@ -6,8 +6,8 @@ const RemoteWork = () => {
     }
     return (
         <div className={styles.Remote_work}>
-          <h3>Рассматриваю варианты удаленной работы</h3>
-          <button onClick={onClickHandler}>Нанять меня</button>
+          <h1>READY FOR REMOTE JOB</h1>
+          <button onClick={onClickHandler}>HIRE ME</button>
         </div>
     )
 }

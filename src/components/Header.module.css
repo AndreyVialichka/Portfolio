@@ -1,36 +1,35 @@
 .Header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     height: 50px;
-    
+    position: fixed;
+    z-index: 5;
 }
 
 .Menu {
-    margin: 10px auto;
-    border: 1px solid black;
-    width: 50% ;
-    height: 30px;
-    border-radius: 5px;
-    background-color: rgb(221, 232, 238);
+    display: flex;
+    flex-direction: column;  
+    font-size: 200%;
 }
 
 .Links {
-    padding: 0px 5px 5px 0px ;
-    height: 20px;
-    margin-right: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
     outline: none;
     text-decoration: none;
     color: black;
     border-radius: 5px;
 }
 
-a:hover {
+.Links a:hover {
     color: aqua;
 }
 
 @media (max-device-width: 1280px) {
     .Menu {
-        width: 100%;
+        width: 80%;
+        flex-direction: row;
+        font-size: 120%;
     }
   }
