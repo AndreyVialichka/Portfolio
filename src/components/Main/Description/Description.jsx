@@ -5,7 +5,10 @@ const Description = () => {
     return (
     <div className={styles.Description}>
         <div className= {styles.Text_description}>
-            HI MY NAME IS ANDREW AND I AM FRONT-END DEVELOPER  
+            <div className= {styles.Typing}>
+                    HI MY NAME IS ANDREW <br />
+                AND I AM FRONT-END DEV.
+                    </div>  
         </div>
         <div className= {styles.Photo_description}>
             <img src={thor}></img>
